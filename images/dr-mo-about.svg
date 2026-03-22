@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <!-- Background -->
+  <rect width="480" height="600" fill="#FDF6F0"/>
+
+  <!-- Subtle gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7A9E7E;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#C4727F;stop-opacity:0.08" />
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#grad1)"/>
+
+  <!-- Geometric accent shapes -->
+  <circle cx="240" cy="150" r="65" fill="#C4727F" opacity="0.12"/>
+  <path d="M 100 220 Q 100 350 140 450 L 340 450 Q 380 350 380 220 Z" fill="#7A9E7E" opacity="0.06"/>
+
+  <!-- Vertical accent line -->
+  <line x1="240" y1="100" x2="240" y2="500" stroke="#C4727F" stroke-width="1" opacity="0.2"/>
+
+  <!-- Text -->
+  <text x="240" y="540" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#2D2A26" letter-spacing="1">About Dr. Mo</text>
+  <text x="240" y="570" font-family="Georgia, serif" font-size="12" text-anchor="middle" fill="#7A9E7E" opacity="0.7">Portrait Image</text>
+</svg>

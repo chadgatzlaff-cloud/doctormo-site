@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 385" width="900" height="385">
+  <!-- Background -->
+  <rect width="900" height="385" fill="#FDF6F0"/>
+
+  <!-- Subtle gradient -->
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C4727F;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#7A9E7E;stop-opacity:0.08" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="385" fill="url(#grad3)"/>
+
+  <!-- Geometric accent shapes -->
+  <circle cx="150" cy="100" r="70" fill="#7A9E7E" opacity="0.1"/>
+  <path d="M 300 200 L 400 100 L 500 200 Z" fill="#C4727F" opacity="0.08"/>
+  <rect x="600" y="150" width="150" height="150" fill="#C4727F" opacity="0.06" rx="20"/>
+
+  <!-- Dividing lines -->
+  <line x1="0" y1="192" x2="900" y2="192" stroke="#C4727F" stroke-width="1" opacity="0.15"/>
+
+  <!-- Text -->
+  <text x="450" y="280" font-family="Georgia, serif" font-size="20" text-anchor="middle" fill="#2D2A26" letter-spacing="1">My Mold & Thyroid Journey</text>
+  <text x="450" y="320" font-family="Georgia, serif" font-size="13" text-anchor="middle" fill="#7A9E7E" opacity="0.7">Featured Blog Image</text>
+</svg>
