@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <!-- Background -->
+  <rect width="480" height="600" fill="#FDF6F0"/>
+
+  <!-- Subtle gradient -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C4727F;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#FDF6F0;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#grad2)"/>
+
+  <!-- Organic shapes -->
+  <circle cx="100" cy="100" r="80" fill="#7A9E7E" opacity="0.08"/>
+  <circle cx="400" cy="450" r="120" fill="#C4727F" opacity="0.06"/>
+  <path d="M 150 300 Q 240 250 330 300 L 330 500 L 150 500 Z" fill="#C4727F" opacity="0.05"/>
+
+  <!-- Horizontal accent -->
+  <line x1="60" y1="300" x2="420" y2="300" stroke="#7A9E7E" stroke-width="1" opacity="0.15"/>
+
+  <!-- Text -->
+  <text x="240" y="540" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#2D2A26" letter-spacing="1">Lifestyle</text>
+  <text x="240" y="570" font-family="Georgia, serif" font-size="12" text-anchor="middle" fill="#C4727F" opacity="0.7">Portrait Image</text>
+</svg>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Dr. Mo | Book a Consultation — Mold &amp; Thyroid Expert</title>
+  <meta name="description" content="Book a virtual consultation with Dr. Morgan Gatzlaff, PharmD. Get personalized help with mold illness, Hashimoto's disease, and thyroid conditions.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact Dr. Mo — Book a Consultation">
+  <meta property="og:description" content="Book a virtual consultation for mold illness, Hashimoto's, and thyroid health support.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doctormo.us/contact.html">
+  <meta property="og:image" content="https://doctormo.us/images/dr-mo-og.jpg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://doctormo.us/contact.html">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "name": "Contact Dr. Mo",
+        "description": "Book a virtual consultation with Dr. Morgan Gatzlaff, PharmD for mold illness, Hashimoto's, and thyroid health support.",
+        "url": "https://doctormo.us/contact.html",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Dr. Morgan Gatzlaff",
+          "jobTitle": "Doctor of Pharmacy",
+          "url": "https://doctormo.us/about.html"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://doctormo.us"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://doctormo.us/contact.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__brand" aria-label="Dr. Mo — Home">
+        <div>
+          <div class="header__logo-text">Dr. <span>Mo</span></div>
+          <div class="header__tagline">Your Mold &amp; Thyroid Expert</div>
+        </div>
+      </a>
+      <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="blog.html" class="nav__link">Blog</a>
+        <a href="contact.html" class="nav__link nav__cta btn btn--primary active">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== Page Hero ========== -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__separator">/</span>
+        <span class="breadcrumb__current">Contact</span>
+      </nav>
+      <h1 class="page-hero__title">Let's Talk</h1>
+      <p class="page-hero__subtitle">
+        Ready to take the first step? Fill out the form below and I'll be in touch to schedule your consultation.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== Contact Form ========== -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="grid-2" style="gap: 4rem;">
+
+        <!-- Form -->
+        <div class="fade-in">
+          <h2 class="section-heading" style="font-size: 1.6rem;">Book a Consultation</h2>
+          <p style="color: var(--color-text-light); margin-bottom: 2rem;">
+            Tell me a little about yourself and what you're going through. I read every submission personally and will respond within 1–2 business days.
+          </p>
+
+          <form id="contact-form" action="https://formspree.io/f/FORM_ID_HERE" method="POST" novalidate>
+            <!-- Honeypot for spam -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name" class="form-label">First Name <span style="color: var(--color-primary);">*</span></label>
+                <input type="text" id="first-name" name="firstName" class="form-input" required placeholder="Your first name" autocomplete="given-name">
+              </div>
+              <div class="form-group">
+                <label for="last-name" class="form-label">Last Name <span style="color: var(--color-primary);">*</span></label>
+                <input type="text" id="last-name" name="lastName" class="form-input" required placeholder="Your last name" autocomplete="family-name">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span style="color: var(--color-primary);">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" required placeholder="your@email.com" autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="(555) 123-4567" autocomplete="tel">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="interest" class="form-label">What brings you here? <span style="color: var(--color-primary);">*</span></label>
+              <select id="interest" name="interest" class="form-select" required>
+                <option value="" disabled selected>Select one...</option>
+                <option value="mold-illness">Mold Illness / Mold Exposure</option>
+                <option value="hashimotos">Hashimoto's Disease</option>
+                <option value="thyroid">Thyroid Issues / Optimization</option>
+                <option value="lab-review">Lab Review & Interpretation</option>
+                <option value="supplement-guidance">Supplement Guidance</option>
+                <option value="general">General Question</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Tell me about your situation <span style="color: var(--color-primary);">*</span></label>
+              <textarea id="message" name="message" class="form-textarea" required placeholder="Share a bit about your symptoms, how long you've been dealing with them, and what you've already tried. The more detail, the better — but don't worry about being perfect."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="heard-about" class="form-label">How did you hear about Dr. Mo?</label>
+              <select id="heard-about" name="heardAbout" class="form-select">
+                <option value="" disabled selected>Select one...</option>
+                <option value="google">Google Search</option>
+                <option value="social-media">Social Media</option>
+                <option value="friend-referral">Friend / Family Referral</option>
+                <option value="doctor-referral">Doctor Referral</option>
+                <option value="blog">Blog Article</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <!-- Formspree redirect -->
+            <input type="hidden" name="_next" value="https://doctormo.us/contact.html?submitted=true">
+            <input type="hidden" name="_subject" value="New Consultation Request — doctormo.us">
+
+            <button type="submit" class="btn btn--primary btn--lg" id="submit-btn" style="width: 100%; margin-top: 0.5rem;">
+              Send My Message
+            </button>
+
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 1rem; text-align: center;">
+              Your information is kept strictly confidential and will never be shared.
+            </p>
+          </form>
+
+          <!-- Success message (hidden by default) -->
+          <div id="form-success" style="display: none; text-align: center; padding: 3rem 1.5rem;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">
+              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 0.75rem;">Message Received!</h3>
+            <p style="color: var(--color-text-light); max-width: 440px; margin: 0 auto;">
+              Thank you for reaching out. I'll review your message and get back to you within 1–2 business days. I'm looking forward to hearing your story.
+            </p>
+            <p style="margin-top: 1.5rem;">
+              <a href="index.html" class="btn btn--secondary">Back to Home</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Sidebar Info -->
+        <div class="fade-in">
+          <div class="card" style="margin-bottom: 2rem; border-color: var(--color-primary-light);">
+            <div class="card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="card__title">Virtual Consultations</h3>
+            <p class="card__text">All consultations are conducted via secure video call. You can connect from the comfort of your home, anywhere in the United States.</p>
+          </div>
+
+          <div class="card" style="margin-bottom: 2rem;">
+            <div class="card__icon" style="background-color: rgba(122,158,126,0.12); color: var(--color-secondary);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="card__title">Response Time</h3>
+            <p class="card__text">I personally read every message and typically respond within 1–2 business days. If your situation is urgent, please contact your local healthcare provider or call 911.</p>
+          </div>
+
+          <div class="card" style="margin-bottom: 2rem;">
+            <div class="card__icon" style="background-color: rgba(212,165,116,0.15); color: var(--color-gold);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3 class="card__title">What to Have Ready</h3>
+            <p class="card__text">If you have recent lab results, a list of medications/supplements, or notes about your symptom timeline — mention them in your message. It helps me prepare for our conversation.</p>
+          </div>
+
+          <div class="quote-block" style="margin-top: 2rem;">
+            <p class="quote-block__text" style="font-size: 1.05rem;">
+              "You don't have to have it all figured out before reaching out. That's what I'm here for."
+            </p>
+            <p class="quote-block__attribution">— Dr. Mo</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-name">Dr. <span>Mo</span></div>
+          <p class="footer__brand-text">
+            Dr. Morgan Gatzlaff, PharmD — helping you navigate mold illness, Hashimoto's, and thyroid conditions with clinical expertise and personal understanding.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigation</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About Dr. Mo</a>
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="blog.html" class="footer__link">Blog</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Specialties</h4>
+          <a href="services.html" class="footer__link">Mold Illness</a>
+          <a href="services.html" class="footer__link">Hashimoto's Disease</a>
+          <a href="services.html" class="footer__link">Thyroid Optimization</a>
+          <a href="services.html" class="footer__link">Functional Medicine</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Connect</h4>
+          <a href="contact.html" class="footer__link">Book a Consultation</a>
+          <a href="https://www.linkedin.com/in/morgan-gatzlaff-pharmd" class="footer__link" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Dr. Mo — Dr. Morgan Gatzlaff, PharmD. All rights reserved.</p>
+        <p class="footer__disclaimer">
+          The information on this website is for educational purposes only and does not constitute medical advice. Always consult your healthcare provider before making changes to your health regimen.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
